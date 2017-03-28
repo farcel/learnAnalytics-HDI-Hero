@@ -14,6 +14,29 @@ Welcome to the Hadoop Hero Course Repository. You can find the latest materials 
 2. [Class Playlist](https://open.spotify.com/user/pakmanaz/playlist/02R6d9fLRwxI06EHcm2Mcs)
     * As your instructor, I'll also be your workshop dj. Feel free to make requests.
 
+## Agenda
+
+### Day One
+
++ Overview of HDInsight
++ Examining Azure Data Lake Storage
++ Application Management Through Ambari
++ Fundamentals of Hive and Spark
+
+### Day Two
+
++ Tuning and Configuring Hive Jobs
++ Tuning and Configuring Spark Applications
++ Security in Azure Data Lake Store
++ Secure Multi-User Clusters with Apache Ranger
+
+### Day Three
+
++ R Server on Spark
++ Distributed Deep Learning Frameworks on Spark
++ Advanced Monitoring Solutions with Operations Management Suite (OMS)
++ Hackathon
+
 ## Contributing
 
 Contributions in any form are appreciated and encouraged! If you find errors, please submit an Issue or, for brownie/beer points, create a pull request with a fix!
