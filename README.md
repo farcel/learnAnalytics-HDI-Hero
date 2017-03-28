@@ -3,8 +3,6 @@ HDInsight for The Hadoop Hero: Administering, Configuring and Securing HDI Insig
 
 Welcome to the Hadoop Hero Course Repository. You can find the latest materials from the workshop here, and links for course materials from prior iterations of the course ca be found in the [version pane]().
 
-Review instructions:
-
 ## For Instructors:
 
 1. The Instructor-Resources directory contains useful scripts for redelivering this course.
