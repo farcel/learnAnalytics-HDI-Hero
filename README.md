@@ -1,4 +1,4 @@
-HDInsight for The Hadoop Hero: Administering, Configuring and Securing HDI Insight Clusters
+HDInsight for The Hadoop Hero: Administering, Configuring and Securing HDInsight Clusters
 ===============================================================================================================
 
 Welcome to the Hadoop Hero Course Repository. You can find the latest materials from the workshop here, and links for course materials from prior iterations of the course ca be found in the [version pane]().
