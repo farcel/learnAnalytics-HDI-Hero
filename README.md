@@ -20,21 +20,19 @@ Welcome to the Hadoop Hero Course Repository. You can find the latest materials 
 
 + Overview of HDInsight
 + Examining Azure Data Lake Storage
-+ Application Management Through Ambari
 + Fundamentals of Hive and Spark
++ Hive Labs
 
 ### Day Two
 
 + Tuning and Configuring Hive Jobs
 + Tuning and Configuring Spark Applications
-+ Security in Azure Data Lake Store
-+ Secure Multi-User Clusters with Apache Ranger
++ R Server on HDInsight
++ Machine Learning with Spark and R Ser er
 
 ### Day Three
 
-+ R Server on Spark
 + Distributed Deep Learning Frameworks on Spark
-+ Advanced Monitoring Solutions with Operations Management Suite (OMS)
 + Hackathon
 
 ## Contributing
