@@ -28,7 +28,7 @@ Welcome to the Hadoop Hero Course Repository. You can find the latest materials 
 + Tuning and Configuring Hive Jobs
 + Tuning and Configuring Spark Applications
 + R Server on HDInsight
-+ Machine Learning with Spark and R Ser er
++ Machine Learning with Spark and R Server
 
 ### Day Three
 
