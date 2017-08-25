@@ -18,4 +18,9 @@ The command to submit a script action using Azure CLI to a running cluster is si
 
 Valid node types are `headnode`, `workernode`, and `zookeeper`. If the script should be applied to multiple node types, specify the types separated by a ';'. For example,` -n headnode;workernode`.
 
+We have configured this into the script `submit-script-action.sh` with three required parameters: script name, script URI, and nodetypes. Let's run the script to configure OMS integration on our cluster.
+
+```bash
+./submit-script-action.sh sparkoms https://raw.githubusercontent.com/hdinsight/HDInsightOMS/master/monitoring/scriptspark.sh headnode:workernode
+```
 
