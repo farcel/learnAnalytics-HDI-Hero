@@ -13,7 +13,8 @@ The Azure-CLI is a Node.js utility for managing Azure resources using a command-
 
 We'll first create a new resource group and storage account for our cluster. Take a look at the script: `create-sa.sh`.
 
-```{include=create-sa.sh}
+```include
+create-sa.sh
 ```
 
 This script will create a resource group and a storage account for you, and print out the key for the storage account. Keep note of the key.
@@ -22,7 +23,8 @@ This script will create a resource group and a storage account for you, and prin
 
 Pass the key from the previous script as the first argument to the script `provision-cluster.sh`, i.e., `./provision-cluster.sh $KEY`
 
-```{include=provision-cluster.sh}
+```include
+provision-cluster.sh
 ```
 
 You should now have a brand new cluster!
