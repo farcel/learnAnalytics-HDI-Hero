@@ -66,4 +66,11 @@ To enable data collection from your HDInsight cluster, you need to run a Script 
 11. The Script Action will take a few minutes to run. You can monitor its status from Script Actions blade.
 12. When the Script Action completes, you should see a green checkmark next to the script name in the listing. 
 
+## Log Analytics and Spark View
 
+1. You can now navigate to your OMS workspace and monitor your cluster
+1. To import the Spark View, click on _View Designer_ tile:
+    ![View Designer](view-designer.png)
+1. Click on import:
+    ![Import View](import-view.png)
+1. Upload the file [learnAnalytics-HDI-Hero/Student-Resources/Labs/Lab-3-Using-OMS/sparkOMS.omsview](https://github.com/Azure/learnAnalytics-HDI-Hero/blob/relab/Student-Resources/Labs/Lab-3-Using-OMS/sparkOMS.omsview) from the repo and click save.
