@@ -10,7 +10,7 @@ Welcome to the Hadoop Hero Course Repository. You can find the latest materials 
 
 ## For Students:
 
-1. The rendered course materials are available in the Student-Resources folder.
+1. The course materials are available in the Student-Resources folder, where you'll find labs and slides.
 2. [Class Playlist](https://open.spotify.com/user/pakmanaz/playlist/02R6d9fLRwxI06EHcm2Mcs)
     * As your instructor, I'll also be your workshop dj. Feel free to make requests.
 
@@ -21,19 +21,18 @@ Welcome to the Hadoop Hero Course Repository. You can find the latest materials 
 + Overview of HDInsight
 + Examining Azure Data Lake Storage
 + Fundamentals of Hive and Spark
-+ Hive Labs
++ Automating Deployments and Management with Azure CLI
 
 ### Day Two
 
-+ Tuning and Configuring Hive Jobs
-+ Tuning and Configuring Spark Applications
-+ R Server on HDInsight
-+ Machine Learning with Spark
++ Submitting Script Actions with Azure CLI
++ Monitoring Clusters and Resources with OMS
++ Queues and Job Scheduling
 
 ### Day Three
 
 + Distributed Deep Learning Frameworks on Spark
-+ Hackathon
++ Operationalization
 
 ## Contributing
 
