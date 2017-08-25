@@ -14,13 +14,19 @@ The command to submit a script action using Azure CLI to a running cluster is si
  azure hdinsight script-action create \
  	<clustername> -g <resourcegroupname> \
  	-n <scriptname> -u <scriptURI> -t <nodetypes>
+ 	-p <p1> <p2> --persistOnSuccess
 ```
 
 Valid node types are `headnode`, `workernode`, and `zookeeper`. If the script should be applied to multiple node types, specify the types separated by a ';'. For example,` -n headnode;workernode`.
 
-We have configured this into the script `submit-script-action.sh` with three required parameters: script name, script URI, and nodetypes. Let's run the script to configure OMS integration on our cluster.
+Let's run a script to configure OMS integration on our cluster.
 
 ```bash
-./submit-script-action.sh sparkoms https://raw.githubusercontent.com/hdinsight/HDInsightOMS/master/monitoring/scriptspark.sh headnode:workernode
+ azure hdinsight script-action create \
+ 	azhdiclass -g azaidihdi \
+ 	-n sparkoms -u https://raw.githubusercontent.com/hdinsight/HDInsightOMS/master/monitoring/scriptspark.sh \
+ 	-t headnode;workernode \
+ 	-p "workspaceid" "key" \
+ 	--persistOnSuccess
 ```
 
