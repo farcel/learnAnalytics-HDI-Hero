@@ -28,7 +28,7 @@ When you provision the HDInsight Monitoring solution, you will create an OMS wor
 
     ![New Workspace](new-oms.png)
 6. Find your new OMS workspace and open the OMS portal:
-    ![Landing Page](landing-page.png)
+    ![Landing Page](landing-page.PNG)
 
 ### Locate OMS Workspace ID and Key
 
@@ -72,5 +72,5 @@ To enable data collection from your HDInsight cluster, you need to run a Script 
 1. To import the Spark View, click on _View Designer_ tile:
     ![View Designer](view-designer.png)
 1. Click on import:
-    ![Import View](import-view.png)
+    ![Import View](import-view.PNG)
 1. Upload the file [learnAnalytics-HDI-Hero/Student-Resources/Labs/Lab-3-Using-OMS/sparkOMS.omsview](https://github.com/Azure/learnAnalytics-HDI-Hero/blob/relab/Student-Resources/Labs/Lab-3-Using-OMS/sparkOMS.omsview) from the repo and click save.
