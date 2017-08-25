@@ -5,4 +5,12 @@
 <li><a href="https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-create-linux-clusters-azure-cli">Create HDInsight Clusters using the Azure CLI</a></li>
 </ul>
 <p>The Azure-CLI is a Node.js utility for managing Azure resources using a command-line interface.</p>
-<p><strong>Note</strong> - there is a new cli-utility written in Python, <a href="https://github.com/Azure/azure-cli">azure-cli 2.0</a>, but it does not yet support provisioning HDInsight clusters yet.</p>
+<p><strong>Note</strong> - there is a new cli-utility written in Python, <a href="https://github.com/Azure/azure-cli">azure-cli 2.0</a>, but it does not yet support provisioning HDInsight clusters.</p>
+<h3 id="create-a-new-resource-group-and-storage-account">Create a New Resource Group and Storage Account</h3>
+<p>We'll first create a new resource group and storage account for our cluster. Take a look at the script: <code>create-sa.sh</code>.</p>
+<pre include="create-sa.sh"><code></code></pre>
+<p>This script will create a resource group and a storage account for you, and print out the key for the storage account. Keep note of the key.</p>
+<h3 id="provision-cluster">Provision Cluster</h3>
+<p>Pass the key from the previous script as the first argument to the script <code>provision-cluster.sh</code>, i.e., <code>./provision-cluster.sh $KEY</code></p>
+<pre include="provision-cluster.sh"><code></code></pre>
+<p>You should now have a brand new cluster!</p>
